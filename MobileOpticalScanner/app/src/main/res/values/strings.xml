@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Mobile Optik Okuyucu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="school">Okullar</string>
+    <string name="classes">Sınıflar</string>
+    <string name="tests">Testler</string>
+    <string name="forms">Formlar</string>
+    <string name="students">Öğrenciler</string>
+    <string name="about">Hakkımızda</string>
+
+    <string name="menu_student">Öğrenci Ekle</string>
+    <string name="menu_school">Okul Ekle</string>
+    <string name="menu_class">Sınıf Ekle</string>
+    <string name="menu_main">Ana Menu</string>
+    <string name="menu_answersheet">Kaydet</string>
+
+    <string name="okey_button">TAMAM</string>
+    <string name="end_button">BITIR</string>
+
+    <string name="class_no">Sınıf Numarası</string>
+    <string name="class_part">Şube Adı</string>
+    <string name="class_description">Alternatif İsim</string>
+    <string name="class_school_name">Okul Adı</string>
+    <string name="class_school_code">Kurum Kodu</string>
+    <string name="class_school_city">İl</string>
+    <string name="class_school_distract">İlçe</string>
+
+    <string name="test_title">Test Başlığı</string>
+    <string name="test_question_count">Soru Sayısı</string>
+    <string name="test_question_point">Soru Puanı</string>
+
+    <string name="student_name">Isim</string>
+    <string name="student_surname">Soyisim</string>
+    <string name="student_school_number">Okul Numarası</string>
+    <string name="student_telephone_number">Telefon Numarası</string>
+
+    <string name="class_save_button">KAYDET</string>
+    <string name="class_save_go_button">KAYDET VE BAŞLAT</string>
+
+    <string name="action_rigidscan">Action</string>
+    <string name="label_empty_list">List is Empty</string>
+    <string name="action_create_school">Yeni Okul Oluştur</string>
+    <string name="title_activity_school">Okullar</string>
+
+    <string name="label_school_category">Okul</string>
+    <string name="label_school_type_category">Okul Tipi</string>
+    <string name="label_class_category">Sınıf</string>
+    <string name="label_test_form">Formlar</string>
+    <string name="label_test_booklet">Kitapçık Sayısı</string>
+    <string name="label_test_net">Net Hesaplama</string>
+
+
+    <string-array name="school_types_items">
+        <item>Seçiniz</item>
+        <item>Devlet Okulu</item>
+        <item>Özel Okul</item>
+        <item>Yarı Özel Okul</item>
+    </string-array>
+    <string-array name="test_net_calculator">
+        <item>0</item>
+        <item>21</item>
+        <item>31</item>
+        <item>41</item>
+        <item>51</item>
+    </string-array>
+    <string-array name="test_booklet_type">
+        <item>Grup Yok</item>
+        <item>2 Grup</item>
+        <item>3 Grup</item>
+        <item>4 Grup</item>
+    </string-array>
+    <string-array name="test_form_choose">
+        <item>20 Soru 5 şık</item>
+        <item>20 Soru 4 şık</item>
+        <item>25 Soru 4 şık</item>
+        <item>25 Soru 5 şık</item>
+    </string-array>
+    <string name="title_activity_school_list">Okullar</string>
+    <string name="title_activity_add_school">Okul Ekle</string>
+
+    <string name="title_activity_class_list">Sınıflar</string>
+    <string name="title_activity_add_class">Sınıf Ekle</string>
+
+    <string name="title_activity_add_student">Öğrenci Ekle</string>
+    <string name="title_activity_student_list">Öğrenciler</string>
+
+    <string name="title_activity_test_list">Testler</string>
+    <string name="title_activity_add_test">Test Ekle</string>
+    <string name="title_activity_answer_sheet">Cevap Anahtarı</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3A712</color>
+    <color name="colorPrimaryDark">#FF6F00</color>
+    <color name="colorAccent">#9DD9D2</color>
+    <color name="colorBackground">#D6D6B1</color>
+
+    <color name="colorCounterBackground">#34B5E5</color>
+
+    <color name="gray_text">#757575</color>
+    <color name="light_gray">#ffd9d9d9</color>
+    <color name="dark_blue">#204062</color>
+    <color name="light_blue">#34B5E5</color>
+    <color name="gray_border">#D3D3D3</color>
+    <color name="gray">#808285</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="listViewDivider">#F0F3F5</color>
+    <color name="listViewDivider2">#E1E8ED</color>
+
+    <color name="item_row_start_color">#ffffff</color>
+    <color name="item_row_end_color">#ffffff</color>
+
+
+</resources>

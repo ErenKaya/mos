@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.com.erenkaya.mobileopticalscanner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SchoolList"
+            android:label="@string/title_activity_school_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddSchoolActivity"
+            android:label="@string/title_activity_add_school"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.SchoolList" />
+        </activity>
+        <activity
+            android:name=".activities.ClassList"
+            android:label="@string/title_activity_class_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddClassActivity"
+            android:label="@string/title_activity_add_class"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.ClassList" />
+        </activity>
+        <activity
+            android:name=".activities.StudentList"
+            android:label="@string/title_activity_student_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddStudentActivity"
+            android:label="@string/title_activity_add_student"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.StudentList" />
+        </activity>
+        <activity
+            android:name=".activities.TestList"
+            android:label="@string/title_activity_test_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AnswerSheetActivity"
+            android:label="@string/title_activity_answer_sheet"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AddTestActivity"
+            android:label="@string/title_activity_add_test"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tr.com.erenkaya.mobileopticalscanner.activities.TestList" />
+        </activity>
+        <activity android:name=".activities.CameraActivity"></activity>
+    </application>
+
+</manifest>
